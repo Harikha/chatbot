@@ -78,8 +78,7 @@
       "tag": "name",
       "patterns": [
           "my name is ",
-          "I'm ",
-          "I am"
+          "I am "
       ],
       "responses": [
           "Oooh great to meet you ! How may I assist you ",
@@ -104,6 +103,7 @@
   {
       "tag": "pophyderabad",
       "patterns": [
+        "popular places to visit in hyderabad","popular places to visit in hyd","popular places to visit in bhagyanagar",
           "hyderabad","Hyderabad","hyd","HYD","Bhagyanagar"
       ],
       "responses": [
@@ -114,6 +114,7 @@
   {
       "tag": "popwarangal",
       "patterns": [
+        "popular places to visit in warangal","popular places to visit in wrngl","popular places to visit in orugallu",
          "warangal"," Orugallu","wgl","wrngl"
       ],
       "responses": [
@@ -124,6 +125,7 @@
   {
     "tag": "popadilabad",
     "patterns": [
+        "popular places to visit in adilabad","popular places to visit in adb","popular places to visit in Adilabad",
        "Adilabad","adilabad","adb"
     ],
     "responses": [
@@ -134,6 +136,7 @@
   {
     "tag": "popkarimnagar ",
     "patterns": [
+        "popular places to visit in karimnagar","popular places to visit in kareemnagar","popular places to visit in knmgr",
        "karimnagar","karamnagaram","karremnagar","kareemnagar","kmngr"
     ],
     "responses": [
@@ -143,6 +146,7 @@
 {
     "tag": "popkhammam ",
     "patterns": [
+        "popular places to visit in khammam","popular places to visit in kammam","popular places to visit in Khammam",
       "khammam","kammam","Khammam"
     ],
     "responses": [
@@ -152,6 +156,7 @@
 {
     "tag": "popmahabubnagar",
     "patterns": [
+        "popular places to visit in Mahabubnagar","popular places to visit in mahaboobnagar","popular places to visit in mbngr",
      "Mahabubnagar","mahaboobnagar","mehabubnagar","mbngr"
     ],
     "responses": [
@@ -161,6 +166,7 @@
 {
     "tag":"popnalgonda",
     "patterns":[
+        "popular places to visit in nallagonda","popular places to visit in nallagondla","popular places to visit in nalgonda",
         "nallagonda","nallagondla","ngl","nalgonda"
     ],
     "responses":[
@@ -170,6 +176,7 @@
 {
     "tag":"popnizamabad",
     "patterns":[
+        "popular places to visit in nizamabad","popular places to visit in nizambad","popular places to visit in nijamabad",
        "nizamabad","nizambad","nzmbd","nijambad","nijamabad"
     ],
     "responses":[
@@ -179,7 +186,8 @@
 {
     "tag":"poppeddapally",
     "patterns":[
-      "peddapally","peddapalli","pedpali"
+        "popular places to visit in peddapally","popular places to visit in peddepally","popular places to visit in peddapalli",
+      "peddapally","peddapalli","pedpali","peddepalli"
     ],
     "responses":[
        "NTPC Ramagundam,<br/> Buddhist Stupa,<br/> Ramagir Fort ,<br/>Siva Temple ,<br/>Siva Trikuta Temple ,<br/>Sri Vasavi Andal Ranganatha Swamy Temple,<br/> Andalamma Old Temple"
@@ -188,6 +196,7 @@
 {
     "tag":"popsidmedak",
     "patterns":[
+        "popular places to visit in medak","popular places to visit in siddipetha","popular places to visit in Siddipet",
      "siddipetha","medak","Siddipet","sidipet"
     ],
     "responses":[
@@ -197,6 +206,7 @@
 {
     "tag":"popsuryapet",
     "patterns":[
+        "popular places to visit in suryapeta","popular places to visit in suryapet",
      "suryapeta","suryapet"
     ],
     "responses":[
@@ -216,6 +226,19 @@
     "responses":[
      "follow this link ,https://bit.ly/3tL4HCH"
     ]  
+},
+{
+    "tag": "kids places",
+    "patterns": [
+        "Can you suggest places to visit for kids ",
+        "places to visit for kids ",
+        "Suggest good places to visit with kids ",
+        "must visit places with kids",
+        "suggest places that kids enjouymost"
+    ],
+    "responses": [
+       "Ramoji Film City ,<br/>Salar Jung Museum,<br/> Chowmahalla Palace,<br/> Birla Mandir,<br/> Jala Vihar,<br/> Lumbini Park,<br/> Nehru Zoo Park ,<br/>Snow world,<br/> NTR Gardens ,<br/>Mount Opera ,<br/>Birla Planetarium,<br/> Pillalamarri,<br/>  Kakatiya Musical Garden ,<br/>Kakatiya Zoological Park,<br/> Ekashila Lake & Children Garden,<br/> Ethipothala falls"
+    ]
 }
 ]
 } 

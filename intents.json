@@ -9,7 +9,8 @@
           "Is anyone there?",
           "Hello",
           "Good day",
-          "Hi there"
+          "Hi there",
+          "hi"
       ],
       "responses": [
           "Hello thanks for checking in",
@@ -65,11 +66,12 @@
       "tag": "name1",
       "patterns": [
           "what's your name?",
+          "what is your name",
+          "whats ur name",
           "who are you?"
       ],
       "responses": [
-          "I'm just an SDF virtual agent. I only exist in the world of DoFPD",
-          "I'm a SDF virtual chat agent"
+          "i'm a travel assistant chatbot."
       ]
   },
   {
@@ -85,77 +87,121 @@
       ]
   },
   {
-      "tag": "charge",
+      "tag": "popular places query",
       "patterns": [
-          "Whether charge lower than the SDF charge be ceded?",
-          "what is the charge of SDF, lower than the SDF charge be ceded?",
-          "May I know the Charge",
-          "may i know the charge"
+          "Can you suggest places to visit near ",
+          "popular places nearby ",
+          "Suggest good places to visit ",
+          "nearest popular places "
       ],
+      "function":"popularPlaces",
       "responses": [
-          "Oh Yes, it can be ceded",
-          "It is ceded",
-          "it can be ceded"
+          "Where are you currently located?",
+          "Where are you know",
+          "In which district are you now"
       ]
   },
   {
-      "tag": "nodal",
+      "tag": "pophyderabad",
       "patterns": [
-          "which nodal agency for cooperative factories?",
-          "Who will be the nodal agency for processing NOC request?",
-          "can you help me, which nodal agency for co-operative sugar factories for processing NOC requests?",
-          "who will process NOC request for co-operative sugar factories?"
+          "hyderabad","Hyderabad","hyd","HYD","Bhagyanagar"
       ],
       "responses": [
-          "IFCI for private sugar factories and NCDC for co-operative sugar factories."
+      "Golconda Fort,<br/> Charminar,<br/> Mecca Masjid,<br/> Qutb Shahi Tombs,<br/> Hussain Sagar Lake,<br/> Ramoji Film City,<br/> Salar Jung Museum,<br/> Chowmahalla Palace,<br/> Paigah Tombs,<br/> Birla Mandir,<br/> Jala Vihar,<br/> Lumbini Park,<br/> Nehru Zoo Park,<br/> Snow world,<br/> NTR Gardens,<br/> Shilparamam,<br/> Chilkur Balaji Temple,<br/> Mount Opera,<br/> Sanghi Temple,<br/> Botanical Gardens,<br/> Birla Planetarium,<br/> Laad Bazaar,<br/> Rachakonda Fort"
+        
       ]
   },
   {
-      "tag": "private",
+      "tag": "popwarangal",
       "patterns": [
-          "Which is the nodal agency for private sugar factories for processing NOC requests?",
-          "private nodal agency",
-          "nodal agency for private sugar factories",
-          "Please tell me the nodal agency for private factories",
-          "Will you help me as a prive sugar factory ownere, which agency will facilitate in this?",
-          "private agency",
-          "private organization",
-          "private organisation"
+         "warangal"," Orugallu","wgl","wrngl"
       ],
       "responses": [
-          "Yes, here is the link https://www.ifciltd.com/",
-          "yes IFCL",
-          "Hey! you can visit https://www.ifciltd.com/",
-          "I am sure it's Industrial Finance Corporation of India (IFCI)"
+         "Thousand Pillar Temple,<br/> Warangal Fort,<br/> Bhadra Kali Temple,<br/> Ramappa Temple,<br/> Jain Temple, <br/> Kolanupaka Siddeswara Temple,<br/> Sri Veeranarayana Temple,<br/> Mallikarjuna Swamy Temple,<br/>Inavolu Ramappa Lake,<br/>Laknam Cheruvu ,<br/>Padmakshi Temple,<br/> Anjaneya Swamy Temple,<br/> Kakatiya Musical Garden ,<br/>Kakatiya Zoological Park, <br/>Kush Mahal, <br/>Ekashila Lake & Children Garden"
       ]
   },
-  {
-      "tag": "loan application ",
-      "patterns": [
-          "SDF Loan",
-          "sdf loan",
-          "loan link",
-          "loan form"
-      ],
-      "responses": [
-          "https://sdfportal.in/Login",
-          "https://dfpd.gov.in/SDF-Main.htm"
-      ]
 
-  },
   {
-    "tag": "loan application ",
+    "tag": "popadilabad",
     "patterns": [
-        "SDF Loan",
-        "sdf loan",
-        "loan link",
-        "loan form"
+       "Adilabad","adilabad","adb"
     ],
     "responses": [
-        "https://sdfportal.in/Login",
-        "https://dfpd.gov.in/SDF-Main.htm"
+        "Kawal Wildlife Sanctuary,<br/> Kuntala Waterfalls,<br/> Pochera Waterfalls,<br/> Pranahita Wildlife Sanctuary,<br/> Shivaram Wildlife Sanctuary,<br/>Kaddam Project,<br/> Gayatri WaterFalls,<br/> Gaandhari Khilla,<br/> Kanakai Waterfalls,<br/> Mitte Waterfalls,<br/>Sri Gnana Saraswathi Devasthanam,<br/> Jainath Temple,<br/> Basar Saraswathi Temple,<br/> Kadam Dam,<br/> Gudem Satyanarayana Temple,<br/> Pedda Gundam Waterfall,<br/> Sri Ram Sagar Project,<br/> Sri Komaram Bheem Project,<br/> Vyasa Maharshi,<br/> Cave Nirmal Fort"
     ]
 
+},
+  {
+    "tag": "popkarimnagar ",
+    "patterns": [
+       "karimnagar","karamnagaram","karremnagar","kareemnagar","kmngr"
+    ],
+    "responses": [
+       "Kondagattu Anjaneya Swamy temple ,<br/>Lower Maniar dam,<br/> Nagunur forts and temples,<br/> Venkateswara swamy temple,<br/> Elgandal fort,<br/> Raja Rajeshwara Swamy temple"
+    ]
+},
+{
+    "tag": "popkhammam ",
+    "patterns": [
+      "khammam","kammam","Khammam"
+    ],
+    "responses": [
+     "Narsimha Swami Temple,<br/> Khammam Fort,<br/> Palair Reservoir ,<br/>Kaman Bazaar,<br/> Jammalapuram Temple Gandhi,<br/> Chowk Kinnerasani Wildlife Sanctuary ,<br/>Lakaram Lake"
+    ]
+},
+{
+    "tag": "popmahabubnagar",
+    "patterns": [
+     "Mahabubnagar","mahaboobnagar","mehabubnagar","mbngr"
+    ],
+    "responses": [
+        "Jurala Dam Koilkonda Fort and Koilsagar Dam Gadwal Fort ,<br/>Lalitha Someswara Swamy Temple ,<br/>Kollapur ,<br/>Alampur ,<br/>Pangal Fort ,<br/>Chandraghad Fort ,<br/>Ghanpur Fort,<br/> Pillalamarri,<br/> Wanaparthy Palace"
+    ]
+},
+{
+    "tag":"popnalgonda",
+    "patterns":[
+        "nallagonda","nallagondla","ngl","nalgonda"
+    ],
+    "responses":[
+        "Pillalamarri temple,<br/> Ethipothala falls,<br/> Chaya Someswara temple ,<br/>Pachala Someshwara Temple"
+    ]
+},
+{
+    "tag":"popnizamabad",
+    "patterns":[
+       "nizamabad","nizambad","nzmbd","nijambad","nijamabad"
+    ],
+    "responses":[
+       " Nizamabad Fort,<br/> Kanteshwar Temple,<br/> Nizamabad-Mallaram forest ,<br/>Sarangapoor Hanuman temple,<br/> Ali Sagar lake,<br/> Nizam Sagar dam"
+    ]
+},
+{
+    "tag":"poppeddapally",
+    "patterns":[
+      "peddapally","peddapalli","pedpali"
+    ],
+    "responses":[
+       "NTPC Ramagundam,<br/> Buddhist Stupa,<br/> Ramagir Fort ,<br/>Siva Temple ,<br/>Siva Trikuta Temple ,<br/>Sri Vasavi Andal Ranganatha Swamy Temple,<br/> Andalamma Old Temple"
+    ]
+},
+{
+    "tag":"popsidmedak",
+    "patterns":[
+     "siddipetha","medak","Siddipet","sidipet"
+    ],
+    "responses":[
+      "Sri Kotilingeshwara Swamy Temple,<br/> Sarabheswara Swamy Temple,<br/> Shiva Temple,<br/> Sri Venkateshwara Swamy Temple ,<br/>Jama Masjid Lal Kaman"
+    ]
+},
+{
+    "tag":"popsuryapet",
+    "patterns":[
+     "suryapeta","suryapet"
+    ],
+    "responses":[
+        "Sri Undrugonda Narasimhaswamy Temple,<br/> Jan Pahad Dargah,<br/> Phanigiri,<br/> Mallacheruvu"
+    ]  
 }
 ]
 } 

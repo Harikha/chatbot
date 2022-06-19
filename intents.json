@@ -202,6 +202,20 @@
     "responses":[
         "Sri Undrugonda Narasimhaswamy Temple,<br/> Jan Pahad Dargah,<br/> Phanigiri,<br/> Mallacheruvu"
     ]  
+},
+{
+    "tag":"ticketbooking",
+    "patterns":[
+     "How can i book ticket?",
+     "How to book a ticket",
+     "can you help me in booking a ticket",
+     "please book a ticket",
+     "ticket booking",
+     "book a ticket"
+    ],
+    "responses":[
+     "follow this link ,https://bit.ly/3tL4HCH"
+    ]  
 }
 ]
 } 

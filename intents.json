@@ -224,7 +224,7 @@
      "book a ticket"
     ],
     "responses":[
-     "follow this link ,https://bit.ly/3tL4HCH"
+     "follow this link to book tickets,<a href='https://bit.ly/3N9k5PU'>click here</a>"
     ]  
 },
 {
@@ -234,10 +234,80 @@
         "places to visit for kids ",
         "Suggest good places to visit with kids ",
         "must visit places with kids",
-        "suggest places that kids enjouymost"
+        "suggest places that kids enjoy most"
     ],
     "responses": [
        "Ramoji Film City ,<br/>Salar Jung Museum,<br/> Chowmahalla Palace,<br/> Birla Mandir,<br/> Jala Vihar,<br/> Lumbini Park,<br/> Nehru Zoo Park ,<br/>Snow world,<br/> NTR Gardens ,<br/>Mount Opera ,<br/>Birla Planetarium,<br/> Pillalamarri,<br/>  Kakatiya Musical Garden ,<br/>Kakatiya Zoological Park,<br/> Ekashila Lake & Children Garden,<br/> Ethipothala falls"
+    ]
+},
+{
+    "tag":"kids places hyd",
+    "patterns":[
+        "Can you suggest places to visit for kids in hyderabad",
+        "Can you suggest places to visit with kids near hyderabad",
+        "must visit places with kids in hyderabad",
+        "places to visit with kids for entertainment in hyderabad",
+        "places to visit with kids for entertainment in hyd"
+    ], 
+    "responses": [
+        "Ramoji Film City,</br>Salar Jung Museum,</br>Chowmahalla Palace,</br>Birla Mandir,</br>Jala Vihar,</br>Lumbini Park,</br>Nehru Zoo Park,</br>Snow world,</br>NTR Gardens,</br>Mount Opera,</br>Birla Planetarium"
+        
+    ]
+},
+{
+    "tag":"kids places adb",
+    "patterns":[
+        "Can you suggest places to visit for kids in adilabad",
+        "Can you suggest places to visit with kids near adb",
+        "must visit places with kids in adilabad",
+        "places to visit with kids for entertainment in adilabad",
+        "places to visit with kids for entertainment in adb"
+    ],
+    "responses":[
+        "Kuntala Waterfalls,</br>Pochera Waterfalls,</br>Gayatri WaterFalls,</br>Kanakai Waterfalls,</br>Mitte Waterfalls"
+        
+    ]
+
+},
+{
+    "tag":"kids places warangal",
+    "patterns":[
+        "Can you suggest places to visit for kids in warangal",
+        "Can you suggest places to visit with kids near wrngl",
+        "must visit places with kids in warangal",
+        "places to visit with kids for entertainment in warangal",
+        "places to visit with kids for entertainment in wrngl"
+    ],
+    "responses":[
+        "Kakatiya Musical Garden,</br>Kakatiya Zoological Park,</br>Ekashila Lake & Children Garden"       
+    ]
+},
+{
+    "tag":"kids places nalgonda",
+    "patterns":[
+        "Can you suggest places to visit for kids in  nalgonda",
+        "Can you suggest places to visit with kids near nallagonda",
+        "must visit places with kids in  nalgonda",
+        "places to visit with kids for entertainment in  nalgonda",
+        "places to visit with kids for entertainment in  nallagonda"
+    ],
+    "responses":[
+        "Ethipothala falls"
+               
+    ]
+},
+{
+    "tag":"kids places mahabubnagar",
+    "patterns":[
+        "Can you suggest places to visit for kids in  Mahabubnagar",
+        "Can you suggest places to visit with kids near Mahabubnagar",
+        "must visit places with kids in  Mahabubnagar",
+        "places to visit with kids for entertainment in  Mahabubnagar",
+        "places to visit with kids for entertainment in  mahaboobnagar"
+    ],
+    "responses":[
+        "Pillalamarri"
+               
     ]
 }
 ]

@@ -32,6 +32,18 @@
           ]
       },
       {
+        "tag": "services",
+        "patterns": [
+            "What can you do?",
+            "How can you help me",
+            "What services do you provide?",
+            "What can you do?"
+        ],
+        "responses": [
+           "I can help you in suggesting places to you based on popularity ,age or seasons,and suggest you nearest bank services available,provides a link to book tickets"
+        ]
+    },
+      {
           "tag": "thanks",
           "patterns": [
               "Thanks",
